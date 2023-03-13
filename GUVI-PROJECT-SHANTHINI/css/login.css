@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+ body{
+    height: 100vh;
+    background-size: cover;
+    background-image:url("Neon-4k-Wallpaper.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .input-field .input{
+    height: 20px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff28;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    background: rgba(255,255,255,0.1);
+    outline: none;
+}
+.form-control{
+   opacity: 0.3;
+}
+.card-body{
+   font-family: Arial, Helvetica, sans-serif;
+   color:#ffffff;
+}
+.btn-success{
+   background-color:#e503b086;
+   padding: auto;
+   border-radius: 3px;
+   text-decoration-color: #ffffff;
+}
+.btn-success:hover{
+   background-color:#80036386;
+}

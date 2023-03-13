@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>index</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+   <
+
+ <header class="header">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+           <div class="logo">
+             <a href="#">PROJECT</a>
+           </div>
+           <input type="checkbox" id="nav-check">
+           <label for="nav-check" class="nav-toggler">
+              <span></span>
+           </label>
+           <nav class="nav">
+              <ul>
+                 <li><a href="#" class="active"></a></li>
+                 <li><a href="register.html">REGISTER</a></li>
+                 <li><a href="login.html">LOGIN</a></li>
+                 <li><a href="profile.html">PROFILE</a></li>
+              </ul>
+           </nav>
+        </div>
+    </div>
+ </header>
+ <script>
+  
+   function logout_FUN() {
+     localStorage.removeItem("Auth");
+     console.log("im running")
+     location.href = "login.html";
+   }
+   </script>
+</body>
+</html>
